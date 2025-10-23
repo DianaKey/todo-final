@@ -1,6 +1,6 @@
 To-Do List Web Application
 
--------------------------------
+---
 
 Develop a web application that allows users to create and manage daily task lists.
 

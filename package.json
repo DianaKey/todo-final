@@ -1,0 +1,23 @@
+{
+  "name": "fifi",
+  "version": "1.0.0",
+  "description": "To-Do List Web Application",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaKey/todo-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaKey/todo-final/issues"
+  },
+  "homepage": "https://github.com/DianaKey/todo-final#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
