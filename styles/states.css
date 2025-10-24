@@ -1,0 +1,6 @@
+/* States and accessibility */
+.input-error { outline: 2px solid #ff6b6b; box-shadow: 0 0 0 4px rgba(255,107,107,.25); }
+button:disabled { opacity: .6; cursor: not-allowed; }
+button:focus-visible, .form__input:focus-visible { outline: 2px solid #7ab8ff; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

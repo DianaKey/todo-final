@@ -1,0 +1,50 @@
+/* Variables and theme modifiers */
+:root {
+  --bg-1: #575656;
+  --bg-2: #062e3f;
+  --text: #ffdfdb;
+
+  --surface-1: #1a1b1b;
+  --surface-2: #002837;
+
+  --btn-bg: #f7e2df;
+  --btn-text: #000;
+
+  --radius-sm: 12px;
+  --radius-md: 17px;
+  --radius-xl: 30px;
+
+  --sp-1: 0.5rem;
+  --sp-2: 0.75rem;
+  --sp-3: 1rem;
+  --sp-4: 1.25rem;
+
+  --font-base: "Barlow Condensed", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  --shadow-1: 0 0 10px rgba(255,255,255,0.35);
+  --input-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+/* Note: default (standard) theme uses the :root variable values above */
+body.light {
+  --bg-1: #d4f1ff;
+  --bg-2: #ffffff;
+  --text: #1a150e;
+
+  --surface-1: #aebfd0;
+  --surface-2: #cfd9e2;
+
+  --btn-bg: #e0e7ff;
+  --btn-text: #1a150e;
+}
+body.darker {
+  --bg-1: #001214;
+  --bg-2: #001f29;
+  --text: #ffffff;
+
+  --surface-1: #01394c;
+  --surface-2: #002837;
+
+  --btn-bg: #002837;
+  --btn-text: #ffffff;
+}

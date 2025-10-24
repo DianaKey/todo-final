@@ -1,0 +1,10 @@
+/* Main entry — import all parts (use letter-only filenames) */
+@import "variables.css";
+@import "reset.css";
+@import "layout.css";
+@import "components.css";
+@import "states.css";
+@import "animations.css";
+@import "responsive.css";
+
+/* End of main */

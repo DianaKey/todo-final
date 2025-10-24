@@ -1,0 +1,3 @@
+/* Animations */
+@keyframes animated-text { from { width: 0; } to { width: 100%; } }
+@keyframes animated-cursor { 50% { border-right-color: transparent; } }

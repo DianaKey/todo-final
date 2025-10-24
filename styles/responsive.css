@@ -1,0 +1,13 @@
+/* Responsive breakpoints (mobile-first) */
+@media (min-width: 480px) { .header__title { margin-top: 2.25rem; } }
+@media (min-width: 768px) {
+  .header__controls { justify-content: flex-end; }
+  .header__title { font-size: 3rem; max-width: 40ch; }
+  .form { padding: var(--sp-3); }
+  .todos__list { max-width: 52rem; }
+}
+@media (min-width: 1024px) {
+  .header__title { font-size: 3.25rem; max-width: 60ch; }
+  .form__input { max-width: 500px; }
+  .todos__list { max-width: 60rem; }
+}
